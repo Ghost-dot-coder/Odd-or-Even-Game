@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="arena">
+      <div id="oddEvenButton">
+        <button class="btn1" onclick="odd()" type="button">ODD</button>
+        <h1>OR</h1>
+        <button class="btn2" type="button" onclick="even()">EVEN</button>
+      </div>
+      <div id="chooseButton">
+        <button class="btnc1" type="button">Bating</button>
+        <button class="btnc2" type="button">Balling</button>
+      </div>
+      <div id="gameArea">
+        <div class="player1">
+          <h3>You</h3>
+          <p>Score: 0</p>
+          <img class="fin" src="./assets/fin_1-removebg-preview.png" alt="" />
+          <div id="nums">
+            
+          </div>
+        </div>
+        <div class="player2">
+          <h3>Robo</h3>
+          <p>Score: 0</p>
+          <img class="fin" src="./assets/fin_1-removebg-preview.png" alt="" />
+          <div class="status">
+            <h4 class="status-text">Batting: <span>You</span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

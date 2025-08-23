@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.arena {
+  border: solid;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#gameArea {
+  display: grid;
+  width: 50%;
+  height: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+#oddEvenButton {
+  display: flex;
+  align-items: center;
+}
+.btn1,
+.btn2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  transition: all 150ms;
+  cursor: pointer;
+}
+
+.btn1 {
+  border: solid red 0.1rem;
+  background-color: rgb(240, 196, 196);
+}
+.btn1:hover {
+  background-color: red;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.btn2 {
+  border: solid green 0.1rem;
+  background-color: rgb(194, 247, 194);
+}
+.btn2:hover {
+  background-color: green;
+  box-shadow: 0px 0px 10px 0px black;
+}
+#chooseButton {
+  margin-bottom: 1rem;
+  display: none;
+}
+.btnc1,
+.btnc2 {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
+.btnc1 {
+}
+.btnc2 {
+}
+.player1,
+.player2 {
+  border-radius: 10px;
+  height: 50%;
+}
+.player1 {
+  border: solid;
+  text-align: center;
+}
+.player2 {
+  border: solid;
+  text-align: center;
+}
+.fin {
+  height: 100%;
+}
+
+#nums {
+  display: flex;
+  justify-content: center;
+}
+.numbers {
+  border: solid;
+  margin: 0.1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 150ms;
+}
+.numbers:hover {
+  border: solid red;
+  cursor: pointer;
+  background-color: rgb(154, 194, 9);
+  color: white;
+}
+.status {
+  margin: 0.1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.status-text>span{
+    color: rgb(26, 255, 0);
+}
