@@ -3,6 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+body{
+    background-color: #2c5ea9b7;
+}
 .arena {
   border: solid;
   height: 100vh;
@@ -75,10 +78,15 @@
 .player1 {
   border: solid;
   text-align: center;
+  background-color: aquamarine;
+  box-shadow: 0px 0px 10px 0px black;
+  padding: 1rem;
 }
 .player2 {
   border: solid;
   text-align: center;
+  background-color: aqua;
+  box-shadow: 0px 0px 10px 0px black;
 }
 .fin {
   height: 100%;
@@ -94,6 +102,8 @@
   padding: 1rem;
   border-radius: 10px;
   transition: all 150ms;
+    background-color: rgb(143, 224, 227);
+
 }
 .numbers:hover {
   border: solid red;
@@ -102,12 +112,11 @@
   color: white;
 }
 .status {
-  margin: 0.1rem;
   padding: 1rem;
   border-radius: 10px;
-  background-color: red;
+  background-color: rgb(249, 111, 111);
   box-shadow: 0px 0px 10px 0px black;
 }
-.status-text>span{
-    color: rgb(26, 255, 0);
+#statustext > span {
+  color: rgb(0, 0, 0);
 }
