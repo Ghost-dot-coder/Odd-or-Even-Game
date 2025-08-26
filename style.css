@@ -3,8 +3,8 @@
   margin: 0px;
   box-sizing: border-box;
 }
-body{
-    background-color: #2c5ea9b7;
+body {
+  background-color: #2c5ea9b7;
 }
 .arena {
   border: solid;
@@ -66,10 +66,7 @@ body{
   background-color: black;
   color: aliceblue;
 }
-.btnc1 {
-}
-.btnc2 {
-}
+
 .player1,
 .player2 {
   border-radius: 10px;
@@ -102,8 +99,7 @@ body{
   padding: 1rem;
   border-radius: 10px;
   transition: all 150ms;
-    background-color: rgb(143, 224, 227);
-
+  background-color: rgb(143, 224, 227);
 }
 .numbers:hover {
   border: solid red;
@@ -119,4 +115,12 @@ body{
 }
 #statustext > span {
   color: rgb(0, 0, 0);
+}
+.retry {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
 }
